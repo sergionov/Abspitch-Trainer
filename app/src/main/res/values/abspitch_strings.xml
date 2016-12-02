@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="chancesTitle">Número de intentos:</string>
+    <string name="noteTitle">Nota pulsada: </string>
+    <string name="successTitle">¡Has acertado! </string>
+    <string name="failTitle">¡Has fallado! </string>
+</resources>

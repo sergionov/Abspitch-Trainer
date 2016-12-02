@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abstrainer_pitch_body">El oído absoluto se refiere a la habilidad de identificar una
+        nota por su nombre sin la ayuda de una nota referencial, o ser capaz de producir exactamente
+        una nota solicitada (cantando) sin ninguna referencia.\n\nEsta capacidad está relacionada con
+        la memoria auditiva (la capacidad de recordar ciertos sonidos).\n\nEn este ejercicio vamos
+        a entrenar este tipo de habilidad. Comenzaremos con una sola octava, se reproducirá
+        un sonido y tendrás 3 oportunidades para pulsar la nota correcta dos veces. Iremos añadiendo más
+        octavas progresivamente conforme hagamos progresos.\n\nPresiona en el botón de arriba y comenzará el ejercicio.
+    </string>
+
+    <string name="abstrainer_interval1_body">Un intervalo es la distancia (dentro de una escala) entre
+        dos grados del mismo cabeceo. Se produce un intervalo melódico cuando las dos notas están tocadas
+        una después de otra. Los Intervalos pueden ser armónicos cuando las dos notas suenan a la vez.\n\nLos
+        intervalos nos ofrecen la base de nuestro marco de trabajo de casi todo en la música. Mediante combinaciones
+        de los más pequeños formamos las escalas. Combinando los más amplios formamos los acordes.\n\nLa
+        capacidad de identificar los acordes de oído es uno de los objetivos principales del entranamiento
+        del oído musical.\n\nEn este ejercicio vamos a entrenar este tipo de habilidad. Sonarán dos intervalos
+        generados por la aplicación y el objetivo es escuchar y reconocer cuál de ellos tiene mayor distancia.
+    </string>
+
+    <string name="abstrainer_interval2_body">Un intervalo es la distancia (dentro de una escala) entre
+        dos grados del mismo cabeceo. Se produce un intervalo melódico cuando las dos notas están tocadas
+        una después de otra. Los Intervalos pueden ser armónicos cuando las dos notas suenan a la vez.\n\nLos
+        intervalos nos ofrecen la base de nuestro marco de trabajo de casi todo en la música. Mediante combinaciones
+        de los más pequeños formamos las escalas. Combinando los más amplios formamos los acordes.\n\nLa
+        capacidad de identificar los acordes de oído es uno de los objetivos principales del entranamiento
+        del oído musical.\n\nEn este ejercicio, tu objetivo es determinar qué intervalo ha sonado en la aplicación
+        y seleccionarlo entre las opciones.
+    </string>
+
+    <string name="abspitch_activity_subheader">Escucha notas sin referencias y acierta cuáles son</string>
+    <string name="text_card_title">DESCRIPCIÓN</string>
+</resources>

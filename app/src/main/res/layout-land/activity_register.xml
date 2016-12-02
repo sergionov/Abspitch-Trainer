@@ -1,0 +1,96 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="es.sergionovic.abspitchtrainer.UI.Register_Activity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.design.widget.AppBarLayout
+            android:id="@+id/app_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:gravity="bottom"
+                android:text="Bienvenido a AbsPitch Trainer"
+                android:textColor="@color/white"
+                android:textSize="32sp" />
+
+        </android.support.design.widget.AppBarLayout>
+
+        <RelativeLayout
+            android:id="@+id/register_main_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/app_bar"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/register_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Vamos a recoger unos datos para comenzar..."
+                android:textSize="@dimen/abc_text_size_subhead_material" />
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/textinput_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/register_title"
+                android:layout_marginTop="8dp">
+
+                <EditText
+                    android:id="@+id/etRegister_Name"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="Nombre"
+                    android:inputType="text"
+                    android:textColor="@color/colorPrimaryText" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/textinput_age"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textinput_name">
+
+                <EditText
+                    android:id="@+id/etRegister_Age"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="Edad"
+                    android:inputType="number"
+                    android:textColor="@color/colorPrimaryText" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <Button
+                android:id="@+id/btRegister_Next"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:layout_alignEnd="@+id/textinput_age"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignRight="@+id/textinput_age"
+                android:background="@drawable/ripple_primary"
+                android:clickable="true"
+                android:elevation="2dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:text="Continuar"
+                android:textColor="@color/white" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>
+

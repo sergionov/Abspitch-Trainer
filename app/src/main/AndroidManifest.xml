@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="es.sergionovic.abspitchtrainer" >
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".UI.MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".UI.SettingsActivity"
+            android:label="@string/title_activity_settings" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".UI.MainActivity" />
+        </activity>
+        <activity
+            android:name=".UI.AbsPitch_Activity"
+            android:configChanges="screenSize"
+            android:label="@string/title_abspitch_activity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".UI.MainActivity" />
+        </activity>
+        <activity
+            android:name=".UI.AbspitchTrainer_Activity"
+            android:label="@string/title_activity_abspitch_trainer_" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".UI.MainActivity" />
+        </activity>
+        <activity
+            android:name=".UI.Register_Activity"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="stateHidden" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".UI.RegisterPhoto_Activity"
+            android:label="@string/title_activity_register_photo_" >
+        </activity>
+        <activity
+            android:name=".UI.EditProfile_Activity"
+            android:label="@string/title_activity_edit_profile"
+            android:windowSoftInputMode="stateHidden" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".UI.MainActivity" />
+        </activity>
+        <activity
+            android:name=".UI.Theory_Activity"
+            android:label="@string/title_activity_theory_" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".UI.MainActivity" />
+        </activity>
+        <activity
+            android:name=".UI.AbsIntervals_Activity"
+            android:label="@string/title_activity_abs_intervals_" >
+        </activity>
+        <activity
+            android:name=".UI.AbsIntervals2_Activity"
+            android:label="@string/title_activity_abs_intervals_" >
+        </activity>
+    </application>
+
+</manifest>

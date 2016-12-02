@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="theory_subtitles">
+        <item>Para reconocer notas sin referencias</item>
+        <item>Diferencia de altura entre dos notas</item>
+        <item>Conjuntos de sonidos ordenados en un entorno</item>
+        <item>Conjunto de notas que suenan simultáneamente</item>
+        <item>Movimiento marcado por una sucesión elementos</item>
+    </string-array>
+
+    <string name="theory_pitch">El oído absoluto es la habilidad de nombrar y reconocer estímulos
+        auditivos aislados sobre la base de la nota misma sin ninguna referencia externa. Los poseedores
+        de oído absoluto demuestran su habilidad en varios niveles. Generalmente, el oído absoluto implica
+        algunas o todas las siguientes habilidades:\n\nIdentificar y nombrar las notas tocadas en varios instrumentos.\n\nNombrar la tonalidad de una determinada pieza musical.\n\nCantar o entonar una determinada nota sin ninguna referencia externa.\n\nNombrar las notas de ocurrencias domésticas diarias tales como bocinas de coches, etc…\n\nReproducir a la perfección una canción jamás tocada por ese individuo en un instrumento musical sin necesidad
+        de leerla en una partitura y/o memorizándolo con tan sólo una vez.\n\nLas personas pueden poseer oído absoluto y oído relativo en varios niveles. Tanto el oído absoluto
+        como el oído relativo trabajan juntos en la audición y la práctica musical, si bien las personas
+        suelen mostrar su preferencias por estrategias en el uso de cada habilidad.
+    </string>
+
+    <string name="theory_interval">Intervalo es la diferencia de altura —frecuencia— entre dos notas
+        musicales, medida cuantitativamente (número) en grados o notas naturales y cualitativamente (especie)
+        en tonos y semitonos. Su expresión aritmética es una proporción simple.\n\nPor ejemplo, aritméticamente, la relación de frecuencias entre dos sonidos situados a distancia de
+        quinta justa es 3:2.\n\nLos intervalos tonales tienen un solo valor justo; los modales tienen un valor mayor y otro menor,
+        propios de la modalidad en la que se encuentran.\n\nTodos los intervalos pueden ser, además, aumentados o disminuidos.\n\nSe consideran simples los intervalos no mayores que una octava y compuestos a los que la exceden.
+        Los intervalos compuestos son análogos a los intervalos simples correspondientes. Así, una novena
+        es una segunda a la octava y puede ser mayor o menor; una duodécima es análoga a una quinta y
+        puede ser justa.\n\nSe denomina armónico al intervalo cuyo sonido suena simultáneamente y melódico a aquel cuyo
+        sonido suena sucesivamente.\n\nSe llaman complementarios los intervalos que, sumados, conforman una octava: una cuarta y una
+        quinta son complementarias. Nótese que la suma de los cuatro grados de la cuarta y los cinco
+        grados de la quinta se resuelve en ocho grados, no nueve, porque el cuarto grado de la cuarta
+        es a la vez el primer grado de la quinta.
+    </string>
+
+    <string name="theory_scales">En un sentido general, se llama escala musical a un conjunto de sonidos
+        ordenados notas de un entorno sonoro particular (sea tonal o no); de manera simple y esquemática
+        (según la notación musical convencional pentagramada). Estos sonidos están dispuestos de forma
+        ascendente (de grave a agudo) aunque, de forma complementaria, también de forma descendente, uno
+        a uno en posiciones específicas dentro de la escala, llamadas grados.\n\nLa cantidad (grados) y cualidad (alturas) de los sonidos seleccionados discriminadamente del total
+        del universo acústico para definir un ámbito sonoro particular determina la existencia de numerosos
+        tipos de escalas musicales; cada uno de los cuales detalla un ordenamiento específico de un conjunto
+        discreto de sonidos, cuyas diferentes alturas están relacionadas entre sí sistemáticamente (según un
+        modelo de afinación), proporcionando una medida de las distancias entre los sonidos (intervalos) que
+        la componen y las relaciones que los definen. Aunque varias escalas pueden tener la misma representación,
+        su afinación e intervalos pueden ser diferentes y por lo tanto, sonar distintas.\n\nLa utilidad práctica de la escala musical es fundamentalmente didáctica, y permite sintetizar la
+        composición particular de un sistema musical, como también exponer de manera simplificada, esquemática
+        y conveniente el material melódico y/o armónico del que está compuesta, en parte o en totalidad, una
+        obra musical sometida a estudio. No debe confundirse el concepto de escala musical (sonidos ordenados
+        por grados) con el de tonalidad (característica tonal de una obra musical centrada en un sonido
+        particular), o el de modo (manera de distribuir los intervalos).\n\nExisten muchas escalas musicales, tantas como ámbitos sonoros se deseen considerar; surgidas
+        en diferentes épocas y regiones del mundo, según las distintas formas culturales. Su clasificación
+        es variada, generalmente el criterio básico para categorizar cada escala musical está dado por
+        el número de sus sonidos componentes (escalas pentatónicas, hexatónicas, heptatónicas, etc.), y/o
+        los intervalos existentes entre ellos (escalas diatónicas, cromáticas, mayores, menores, artificiales, etc.).\n\nLa escala musical se forma a partir de las distancias de tono y semitono. La mayoría de ellas
+        está formada por siete notas (cuando es con cromatismos suelen ser 12), pero las hay también de seis u ocho.
+    </string>
+
+    <string name="theory_chords">En música y teoría musical, un acorde consiste en un conjunto de tres
+        o más notas diferentes que suenan simultáneamente y que constituyen una unidad armónica. En determinados
+        contextos, un acorde también puede ser percibido como tal aunque no suenen todas sus notas. Pueden
+        formarse acordes con las notas de un mismo instrumento o con notas de diferentes instrumentos (incluyendo
+        la voz humana) tocados a la vez. Formalmente, un acorde posee entre tres y siete notas de las doce que
+        componen una octava; las notas pueden pertenecer a la misma o a diferentes octavas. La distancia entre
+        dos notas musicales se conoce como intervalo musical; los intervalos musicales, combinados, determinan
+        los diferentes tipos de acordes. Cada tipo de acorde puede presentar como tono fundamental cualquiera
+        de las doce notas musicales (do, do♯, re, mi♭, mi, fa, fa♯, sol, la♭, la, si♭, si). Este tono fundamental
+        (también conocido como «nota fundamental», «fundamental», «nota tónica» o «tónica») determina
+        la tonalidad del acorde y constituye la referencia para sus intervalos.\n\nLas combinaciones de dos notas suelen llamarse díadas, las de tres, tríadas, las de cuatro, cuatríadas,
+        las de cinco, quintíadas, las de seis, sextíadas, y las de siete, septíadas.\n\nA una sucesión de acordes se la denomina progresión armónica. En una canción, o un tema instrumental,
+        las progresiones armónicas determinan en líneas generales el camino que debe seguir la música de
+        acompañamiento y, el que, en bastante medida, suele seguir la melodía principal, que por razones
+        de armonía debe y suele adaptarse en cierto grado al fondo musical. Además, constituyen normalmente
+        un elemento invariable entre diferentes versiones o variaciones, con los mismos o con diferentes
+        instrumentos, de un mismo tema musical. Por ello, es típico «resumir» el acompañamiento de una
+        canción en sus acordes básicos para luego poder interpretarla libremente al piano o la guitarra
+        con dichos acordes como guía, sin perder la esencia de la composición, es decir, sin que esta
+        deje de ser identificable. En sentido inverso, también es típico componer una canción para uno
+        o varios instrumentos partiendo de la creación de una progresión de acordes.\n\nLos acordes más complejos, de 5 o más notas, se utilizan con frecuencia, además de en la música
+        orquestal, en géneros musicales como la canción melódica contemporánea, y, con especial frecuencia,
+        en el jazz.
+    </string>
+    <string name="theory_rythm">De todos los aspectos constituyentes de la música dos destacan por encima
+        del resto, son el ritmo y la melodía. Es más, para numerosos teóricos el ritmo es de estos dos,
+        el único elemento realmente indispensable en la música. En las partituras convencionales de música
+        occidental el ritmo se asocia con el tiempo y con la dirección horizontal, mientras que la melodía
+        se relaciona con la altura musical y con la dirección vertical. El ritmo «hace referencia a las
+        duraciones de las notas individuales, de las armonías (el ritmo armónico), de todas las partes en
+        una textura (el ritmo compuesto), de las longitudes de las frases, de los cambios de dinámica, de
+        los cambios de textura, etc.» El ritmo está marcado por la sucesión regulada de elementos
+        opuestos, la dinámica de los pulsos fuertes y débiles, el pulso tocado y el pulso del silencio
+        inaudible pero implícito, las notas largas y cortas. El oyente percibe esta sucesión temporal
+        de elementos que se ordena en la mente formando una estructura, siendo capaz de anticiparse a ésta.
+        Esto depende de la repetición de un patrón que sea lo suficientemente corto como para memorizarlo.\n\nEl compás se define como la organización de pulsos y acentos formando un patrón que suele repetirse.
+        La frecuencia de tal repetición puede ser regular o irregular. La alternancia de pulsos fuertes y
+        débiles es fundamental para el antiguo lenguaje de la poesía, la música y la danza. El común
+        término poético pie se refiere, como en la danza, a la arsis y tesis del pie en el tiempo. De forma
+        parecida los músicos hablan de un upbeat, downbeat así como «on» y «off beat». Estos contrastes
+        facilitan naturalmente una jerarquía dual de ritmo y dependen de patrones repetitivos de duraciones,
+        acentos y silencios formando un «grupo de pulsos» que corresponde al pie métrico. Normalmente tales
+        grupos de pulsos se definen tomando el pulso más acentuado como el primero y contando los pulsos hasta
+        el siguiente acento. Un ritmo que acentúa otro pulso y desacentúa el pulso establecido o asumido como
+        fuerte de la melodía o de un ritmo precedente se conoce como ritmo sincopado.\n\nEl ritmo es natural y se basa en las relaciones de intensidad y de duración de los sonidos, mientras que
+        la métrica y el compás constituyen una división artificial. Para De Candé el compás es «la manera
+        de dividir y subdividir el tiempo musical oponiendo un orden periódico a la libertad del ritmo».
+        Así pues, cada ritmo es único y tiene una organización propia, mientras que las agrupaciones que
+        se pueden hacer del mismo no son hechos físicos sino construcciones mentales. El ritmo es un elemento
+        general siendo la métrica uno de los aspectos que lo caracterizan en función del acento. En los
+        últimos años el ritmo y la métrica han llegado a ser una importante área de investigación entre
+        los eruditos de la música.
+    </string>
+
+
+</resources>

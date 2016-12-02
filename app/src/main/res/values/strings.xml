@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">AbsPitch Trainer</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="title_activity_settings">Ajustes</string>
+
+    <string name="next">Siguiente</string>
+    <string name="title_abspitch_activity">Reconocer notas</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="fragment_profile_title">Fragment Perfil</string>
+    <string name="fragment_exercises_title">Fragment Ejercicios</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="iconCD">Icono</string>
+    <string name="DummyText">Dummy Text</string>
+
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="white_key_desc">Botón tecla blanca piano</string>
+    <string name="black_key_desc">Botón tecla negra piano</string>
+    <string name="cbOctave1">Octava 1</string>
+    <string name="cbOctave2">Octava 2</string>
+    <string name="cbOctave3">Octava 3</string>
+    <string name="cbOctave4">Octava 4</string>
+    <string name="cbOctave5">Octava 5</string>
+    <string name="cbOctave6">Octava 6</string>
+    <string name="cbOctave7">Octava 7</string>
+    <string name="octavesHeader">USAR OCTAVAS</string>
+    <string name="Play">REPRODUCIR</string>
+    <string name="btRepeat">REPETIR</string>
+    <string name="btNext">SIGUIENTE</string>
+    <string name="btStart">EMPEZAR</string>
+    <string name="btPrevious">ANTERIOR</string>
+    <string name="btEdit">EDITAR</string>
+    <string name="title_activity_abspitch_trainer_">AbspitchTrainer_Activity</string>
+    <string name="exit_message">Pulsa ATRÁS otra vez para salir de la aplicación</string>
+    <string name="level_dialog_title">Elige un nivel</string>
+    <string name="bar_title">Tiempos de respuesta</string>
+    <string name="bar_subtitle">Las barras muestran cuánto tardas en responder (en media) en cada tipo de ejercicio</string>
+    <string name="pie_title">Porcentaje de aciertos</string>
+    <string name="pie_subtitle">En el gráfico mostramos la tasa de aciertos por cada ejercicio</string>
+    <string name="barChart2_title">Frecuencia en los ejercicios</string>
+    <string name="barChart2_subtitle">Este gráfico muestra qué ejercicios practicas con mayor frecuencia</string>
+    <string name="Profile_image_description">Profile image</string>
+
+    <string-array name="tabs">
+        <item>Oído Absoluto</item>
+        <item>Intervalos</item>
+        <item>Escalas</item>
+        <item>Acordes</item>
+        <item>Ritmo</item>
+    </string-array>
+
+    <string-array name="levels">
+        <item>Fácil</item>
+        <item>Medio</item>
+        <item>Avanzado</item>
+        <item>Experto</item>
+    </string-array>
+    <string name="title_activity_register_">Registrarse</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_register_photo_">Registrarse</string>
+    <string name="btRegisterPhoto_Upload">SUBIR FOTO</string>
+    <string name="btRegisterPhoto_Skip">Saltar</string>
+    <string name="btRegisterPhoto_Back">Volver</string>
+    <string name="takePhoto">Hacer foto</string>
+    <string name="ChooseFromGallery">Elegir de la galería</string>
+    <string name="AddPhoto">Añadir foto</string>
+    <string name="Cancel">Cancelar</string>
+    <string name="WelcomeTitlewithJump">Bienvenido a \nAbsPitch Trainer</string>
+    <string name="registerPhoto_body">Puedes subir una foto de perfil si lo deseas</string>
+    <string name="WelcomeTitle">Bienvenido a AbsPitch Trainer</string>
+    <string name="title_activity_edit_profile">Editar Perfil</string>
+    <string name="Name">Nombre</string>
+    <string name="Age">Edad</string>
+    <string name="EditImageProfile">EditImageProfile</string>
+    <string name="btEdit_Photo">CAMBIAR FOTO</string>
+    <string name="action_save">GUARDAR</string>
+    <string name="title_activity_theory_">Teoría</string>
+    <string name="btQuery">CONSULTAR</string>
+    <string name="Theory">Teoría</string>
+    <string name="PitcEx_1">Reconocer notas</string>
+    <string name="IntervalEx_1">Comparación de intervalos</string>
+    <string name="IntervalEx_2">Identificación de intervalos</string>
+    <string name="title_activity_abs_intervals_">Comparación de intervalos</string>
+    <string name="title_activity_abs_intervals2_">Identificación de intervalos</string>
+
+</resources>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="notesList">
+        <item>do_c2</item>
+        <item>reb_c2</item>
+        <item>re_c2</item>
+        <item>mib_c2</item>
+        <item>mi_c2</item>
+        <item>fa_c2</item>
+        <item>solb_c2</item>
+        <item>sol_c2</item>
+        <item>lab_c2</item>
+        <item>la_c2</item>
+        <item>sib_c2</item>
+        <item>si_c2</item>
+        
+        <item>do_c3</item>
+        <item>reb_c3</item>
+        <item>re_c3</item>
+        <item>mib_c3</item>
+        <item>mi_c3</item>
+        <item>fa_c3</item>
+        <item>solb_c3</item>
+        <item>sol_c3</item>
+        <item>lab_c3</item>
+        <item>la_c3</item>
+        <item>sib_c3</item>
+        <item>si_c3</item>
+
+        <item>do_c4</item>
+        <item>reb_c4</item>
+        <item>re_c4</item>
+        <item>mib_c4</item>
+        <item>mi_c4</item>
+        <item>fa_c4</item>
+        <item>solb_c4</item>
+        <item>sol_c4</item>
+        <item>lab_c4</item>
+        <item>la_c4</item>
+        <item>sib_c4</item>
+        <item>si_c4</item>
+
+        <item>do_c5</item>
+        <item>reb_c5</item>
+        <item>re_c5</item>
+        <item>mib_c5</item>
+        <item>mi_c5</item>
+        <item>fa_c5</item>
+        <item>solb_c5</item>
+        <item>sol_c5</item>
+        <item>lab_c5</item>
+        <item>la_c5</item>
+        <item>sib_c5</item>
+        <item>si_c5</item>
+
+        <item>do_c6</item>
+        <item>reb_c6</item>
+        <item>re_c6</item>
+        <item>mib_c6</item>
+        <item>mi_c6</item>
+        <item>fa_c6</item>
+        <item>solb_c6</item>
+        <item>sol_c6</item>
+        <item>lab_c6</item>
+        <item>la_c6</item>
+        <item>sib_c6</item>
+        <item>si_c6</item>
+
+    </array>
+
+    <array name="notesNames">
+        <item>Do  Ocatava 2</item>
+        <item>Re bemol  Ocatava 2</item>
+        <item>Re  Ocatava 2</item>
+        <item>Mi bemol  Ocatava 2</item>
+        <item>Mi  Ocatava 2</item>
+        <item>Fa  Ocatava 2</item>
+        <item>Sol bemol  Ocatava 2</item>
+        <item>Sol  Ocatava 2</item>
+        <item>La bemol  Ocatava 2</item>
+        <item>La  Ocatava 2</item>
+        <item>Si bemol  Ocatava 2</item>
+        <item>Si  Ocatava 2</item>
+
+        <item>Do  Ocatava 3</item>
+        <item>Re bemol  Ocatava 3</item>
+        <item>Re  Ocatava 3</item>
+        <item>Mi bemol  Ocatava 3</item>
+        <item>Mi  Ocatava 3</item>
+        <item>Fa  Ocatava 3</item>
+        <item>Sol bemol  Ocatava 3</item>
+        <item>Sol  Ocatava 3</item>
+        <item>La bemol  Ocatava 3</item>
+        <item>La  Ocatava 3</item>
+        <item>Si bemol  Ocatava 3</item>
+        <item>Si  Ocatava 3</item>
+
+        <item>Do  Ocatava 4</item>
+        <item>Re bemol  Ocatava 4</item>
+        <item>Re  Ocatava 4</item>
+        <item>Mi bemol  Ocatava 4</item>
+        <item>Mi  Ocatava 4</item>
+        <item>Fa  Ocatava 4</item>
+        <item>Sol bemol  Ocatava 4</item>
+        <item>Sol  Ocatava 4</item>
+        <item>La bemol  Ocatava 4</item>
+        <item>La  Ocatava 4</item>
+        <item>Si bemol  Ocatava 4</item>
+        <item>Si  Ocatava 4</item>
+
+        <item>Do  Ocatava 5</item>
+        <item>Re bemol  Ocatava 5</item>
+        <item>Re  Ocatava 5</item>
+        <item>Mi bemol  Ocatava 5</item>
+        <item>Mi  Ocatava 5</item>
+        <item>Fa  Ocatava 5</item>
+        <item>Sol bemol  Ocatava 5</item>
+        <item>Sol  Ocatava 5</item>
+        <item>La bemol  Ocatava 5</item>
+        <item>La  Ocatava 5</item>
+        <item>Si bemol  Ocatava 5</item>
+        <item>Si  Ocatava 5</item>
+
+        <item>Do  Ocatava 6</item>
+        <item>Re bemol  Ocatava 6</item>
+        <item>Re  Ocatava 6</item>
+        <item>Mi bemol  Ocatava 6</item>
+        <item>Mi  Ocatava 6</item>
+        <item>Fa  Ocatava 6</item>
+        <item>Sol bemol  Ocatava 6</item>
+        <item>Sol  Ocatava 6</item>
+        <item>La bemol  Ocatava 6</item>
+        <item>La  Ocatava 6</item>
+        <item>Si bemol  Ocatava 6</item>
+        <item>Si  Ocatava 6</item>
+
+    </array>
+
+</resources>

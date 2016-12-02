@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#03A9F4</color>
+    <color name="colorPrimaryDark">#0288D1</color>
+    <color name="colorAccent">#00BCD4</color>
+    <color name="colorPrimaryLight">#B2DFDB</color>
+    <color name="colorPrimaryText">#212121</color>
+    <color name="colorSecondaryText">#727272</color>
+    <color name="colorDivider">#B6B6B6</color>
+    <color name="colorHighlight">#B6B6B6B6</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="backgroundHigh">#EEEEEE</color>
+    <color name="white_key_background">#FAFAFA</color>
+    <color name="black_key_background">#000000</color>
+
+
+    <item name="alpha40" format="float" type="dimen">0.50</item>
+    <item name="alpha100" format="float" type="dimen">1.00</item>
+
+
+</resources>

@@ -1,0 +1,866 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sergionovic.abspitchtraineralpha.User_Interface.AbsPitch_Activity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:theme="@style/ToolbarTheme" />
+
+    <LinearLayout
+        android:id="@+id/abspitch_mainContent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/toolbar"
+        android:orientation="vertical">
+
+        <HorizontalScrollView
+            android:id="@+id/horizontalScrollView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:elevation="4dp"
+            android:scrollbars="none">
+
+            <RelativeLayout
+                android:id="@+id/keyboard_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="5dp"
+                android:paddingEnd="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingStart="5dp">
+
+                <LinearLayout
+                    android:id="@+id/wb_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:id="@+id/wb_gr_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <RelativeLayout
+                            android:layout_width="35dp"
+                            android:layout_height="200dp">
+
+                            <ImageButton
+                                android:id="@+id/btNote1"
+                                android:layout_width="35dp"
+                                android:layout_height="200dp"
+                                android:layout_marginEnd="2dp"
+                                android:layout_marginRight="2dp"
+                                android:background="@drawable/wk_ripple"
+                                android:clickable="true" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentBottom="true"
+                                android:layout_marginLeft="2dp"
+                                android:layout_marginStart="2dp"
+                                android:text="C2"
+                                android:textSize="22sp" />
+
+                        </RelativeLayout>
+
+                        <ImageButton
+                            android:id="@+id/btNote3"
+                            android:layout_width="35dp"
+                            android:layout_height="200dp"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginRight="2dp"
+                            android:background="@drawable/wk_ripple"
+                            android:clickable="true" />
+
+                        <ImageButton
+                            android:id="@+id/btNote5"
+                            android:layout_width="35dp"
+                            android:layout_height="200dp"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginRight="2dp"
+                            android:background="@drawable/wk_ripple"
+                            android:clickable="true" />
+
+                        <ImageButton
+                            android:id="@+id/btNote6"
+                            android:layout_width="35dp"
+                            android:layout_height="200dp"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginRight="2dp"
+                            android:background="@drawable/wk_ripple"
+                            android:clickable="true" />
+
+                        <ImageButton
+                            android:id="@+id/btNote8"
+                            android:layout_width="35dp"
+                            android:layout_height="200dp"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginRight="2dp"
+                            android:background="@drawable/wk_ripple"
+                            android:clickable="true" />
+
+                        <ImageButton
+                            android:id="@+id/btNote10"
+                            android:layout_width="35dp"
+                            android:layout_height="200dp"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginRight="2dp"
+                            android:background="@drawable/wk_ripple"
+                            android:clickable="true" />
+
+                        <ImageButton
+                            android:id="@+id/btNote12"
+                            android:layout_width="35dp"
+                            android:layout_height="200dp"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginRight="2dp"
+                            android:background="@drawable/wk_ripple"
+                            android:clickable="true" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/wb_gr_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <RelativeLayout
+                            android:layout_width="35dp"
+                            android:layout_height="200dp">
+
+                            <ImageButton
+                                android:id="@+id/btNote13"
+                                android:layout_width="35dp"
+                                android:layout_height="200dp"
+                                android:layout_marginEnd="2dp"
+                                android:layout_marginRight="2dp"
+                                android:background="@drawable/wk_ripple"
+                                android:clickable="true" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentBottom="true"
+                                android:layout_marginLeft="2dp"
+                                android:layout_marginStart="2dp"
+                                android:text="C3"
+                                android:textSize="22sp" />
+
+                        </RelativeLayout>
+
+                        <ImageButton
+                            android:id="@+id/btNote15"
+                            android:layout_width="35dp"
+                            android:layout_height="200dp"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginRight="2dp"
+                            android:background="@drawable/wk_ripple"
+                            android:clickable="true" />
+
+                        <ImageButton
+                            android:id="@+id/btNote17"
+                            android:layout_width="35dp"
+                            android:layout_height="200dp"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginRight="2dp"
+                            android:background="@drawable/wk_ripple"
+                            android:clickable="true" />
+
+                        <ImageButton
+                            android:id="@+id/btNote18"
+                            android:layout_width="35dp"
+                            android:layout_height="200dp"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginRight="2dp"
+                            android:background="@drawable/wk_ripple"
+                            android:clickable="true" />
+
+                        <ImageButton
+                            android:id="@+id/btNote20"
+                            android:layout_width="35dp"
+                            android:layout_height="200dp"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginRight="2dp"
+                            android:background="@drawable/wk_ripple"
+                            android:clickable="true" />
+
+                        <ImageButton
+                            android:id="@+id/btNote22"
+                            android:layout_width="35dp"
+                            android:layout_height="200dp"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginRight="2dp"
+                            android:background="@drawable/wk_ripple"
+                            android:clickable="true" />
+
+                        <ImageButton
+                            android:id="@+id/btNote24"
+                            android:layout_width="35dp"
+                            android:layout_height="200dp"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginRight="2dp"
+                            android:background="@drawable/wk_ripple"
+                            android:clickable="true" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/wb_gr_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <RelativeLayout
+                            android:layout_width="35dp"
+                            android:layout_height="200dp">
+
+                            <ImageButton
+                                android:id="@+id/btNote25"
+                                android:layout_width="35dp"
+                                android:layout_height="200dp"
+                                android:layout_marginEnd="2dp"
+                                android:layout_marginRight="2dp"
+                                android:background="@drawable/wk_ripple"
+                                android:clickable="true" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentBottom="true"
+                                android:layout_marginLeft="2dp"
+                                android:layout_marginStart="2dp"
+                                android:text="C4"
+                                android:textSize="22sp" />
+
+                        </RelativeLayout>
+
+                        <ImageButton
+                            android:id="@+id/btNote27"
+                            android:layout_width="35dp"
+                            android:layout_height="200dp"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginRight="2dp"
+                            android:background="@drawable/wk_ripple"
+                            android:clickable="true" />
+
+                        <ImageButton
+                            android:id="@+id/btNote29"
+                            android:layout_width="35dp"
+                            android:layout_height="200dp"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginRight="2dp"
+                            android:background="@drawable/wk_ripple"
+                            android:clickable="true" />
+
+                        <ImageButton
+                            android:id="@+id/btNote30"
+                            android:layout_width="35dp"
+                            android:layout_height="200dp"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginRight="2dp"
+                            android:background="@drawable/wk_ripple"
+                            android:clickable="true" />
+
+                        <ImageButton
+                            android:id="@+id/btNote32"
+                            android:layout_width="35dp"
+                            android:layout_height="200dp"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginRight="2dp"
+                            android:background="@drawable/wk_ripple"
+                            android:clickable="true" />
+
+                        <ImageButton
+                            android:id="@+id/btNote34"
+                            android:layout_width="35dp"
+                            android:layout_height="200dp"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginRight="2dp"
+                            android:background="@drawable/wk_ripple"
+                            android:clickable="true" />
+
+                        <ImageButton
+                            android:id="@+id/btNote36"
+                            android:layout_width="35dp"
+                            android:layout_height="200dp"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginRight="2dp"
+                            android:background="@drawable/wk_ripple"
+                            android:clickable="true" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/wb_gr_4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <RelativeLayout
+                            android:layout_width="35dp"
+                            android:layout_height="200dp">
+
+                            <ImageButton
+                                android:id="@+id/btNote37"
+                                android:layout_width="35dp"
+                                android:layout_height="200dp"
+                                android:layout_marginEnd="2dp"
+                                android:layout_marginRight="2dp"
+                                android:background="@drawable/wk_ripple"
+                                android:clickable="true" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentBottom="true"
+                                android:layout_marginLeft="2dp"
+                                android:layout_marginStart="2dp"
+                                android:text="C5"
+                                android:textSize="22sp" />
+
+                        </RelativeLayout>
+
+                        <ImageButton
+                            android:id="@+id/btNote39"
+                            android:layout_width="35dp"
+                            android:layout_height="200dp"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginRight="2dp"
+                            android:background="@drawable/wk_ripple"
+                            android:clickable="true" />
+
+                        <ImageButton
+                            android:id="@+id/btNote41"
+                            android:layout_width="35dp"
+                            android:layout_height="200dp"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginRight="2dp"
+                            android:background="@drawable/wk_ripple"
+                            android:clickable="true" />
+
+                        <ImageButton
+                            android:id="@+id/btNote42"
+                            android:layout_width="35dp"
+                            android:layout_height="200dp"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginRight="2dp"
+                            android:background="@drawable/wk_ripple"
+                            android:clickable="true" />
+
+                        <ImageButton
+                            android:id="@+id/btNote44"
+                            android:layout_width="35dp"
+                            android:layout_height="200dp"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginRight="2dp"
+                            android:background="@drawable/wk_ripple"
+                            android:clickable="true" />
+
+                        <ImageButton
+                            android:id="@+id/btNote46"
+                            android:layout_width="35dp"
+                            android:layout_height="200dp"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginRight="2dp"
+                            android:background="@drawable/wk_ripple"
+                            android:clickable="true" />
+
+                        <ImageButton
+                            android:id="@+id/btNote48"
+                            android:layout_width="35dp"
+                            android:layout_height="200dp"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginRight="2dp"
+                            android:background="@drawable/wk_ripple"
+                            android:clickable="true" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/wb_gr_5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <RelativeLayout
+                            android:layout_width="35dp"
+                            android:layout_height="200dp">
+
+                            <ImageButton
+                                android:id="@+id/btNote49"
+                                android:layout_width="35dp"
+                                android:layout_height="200dp"
+                                android:layout_marginEnd="2dp"
+                                android:layout_marginRight="2dp"
+                                android:background="@drawable/wk_ripple"
+                                android:clickable="true" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentBottom="true"
+                                android:layout_marginLeft="2dp"
+                                android:layout_marginStart="2dp"
+                                android:text="C6"
+                                android:textSize="22sp" />
+
+                        </RelativeLayout>
+
+                        <ImageButton
+                            android:id="@+id/btNote51"
+                            android:layout_width="35dp"
+                            android:layout_height="200dp"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginRight="2dp"
+                            android:background="@drawable/wk_ripple"
+                            android:clickable="true" />
+
+                        <ImageButton
+                            android:id="@+id/btNote53"
+                            android:layout_width="35dp"
+                            android:layout_height="200dp"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginRight="2dp"
+                            android:background="@drawable/wk_ripple"
+                            android:clickable="true" />
+
+                        <ImageButton
+                            android:id="@+id/btNote54"
+                            android:layout_width="35dp"
+                            android:layout_height="200dp"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginRight="2dp"
+                            android:background="@drawable/wk_ripple"
+                            android:clickable="true" />
+
+                        <ImageButton
+                            android:id="@+id/btNote56"
+                            android:layout_width="35dp"
+                            android:layout_height="200dp"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginRight="2dp"
+                            android:background="@drawable/wk_ripple"
+                            android:clickable="true" />
+
+                        <ImageButton
+                            android:id="@+id/btNote58"
+                            android:layout_width="35dp"
+                            android:layout_height="200dp"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginRight="2dp"
+                            android:background="@drawable/wk_ripple"
+                            android:clickable="true" />
+
+                        <ImageButton
+                            android:id="@+id/btNote60"
+                            android:layout_width="35dp"
+                            android:layout_height="200dp"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginRight="2dp"
+                            android:background="@drawable/wk_ripple"
+                            android:clickable="true" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/wb_gr_6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:id="@+id/bb_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:id="@+id/bb_gr_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/btNote2"
+                            android:layout_width="25dp"
+                            android:layout_height="120dp"
+                            android:layout_marginLeft="22.5dp"
+                            android:layout_marginStart="22.5dp"
+                            android:background="@drawable/bk_ripple"
+                            android:clickable="true" />
+
+                        <ImageButton
+                            android:id="@+id/btNote4"
+                            android:layout_width="25dp"
+                            android:layout_height="120dp"
+                            android:layout_marginLeft="14dp"
+                            android:layout_marginStart="14dp"
+                            android:background="@drawable/bk_ripple"
+                            android:clickable="true" />
+
+                        <ImageButton
+                            android:id="@+id/btNote7"
+                            android:layout_width="25dp"
+                            android:layout_height="120dp"
+                            android:layout_marginLeft="47dp"
+                            android:layout_marginStart="47dp"
+                            android:background="@drawable/bk_ripple"
+                            android:clickable="true" />
+
+                        <ImageButton
+                            android:id="@+id/btNote9"
+                            android:layout_width="25dp"
+                            android:layout_height="120dp"
+                            android:layout_marginLeft="14dp"
+                            android:layout_marginStart="14dp"
+                            android:background="@drawable/bk_ripple"
+                            android:clickable="true" />
+
+                        <ImageButton
+                            android:id="@+id/btNote11"
+                            android:layout_width="25dp"
+                            android:layout_height="120dp"
+                            android:layout_marginLeft="11dp"
+                            android:layout_marginStart="11dp"
+                            android:background="@drawable/bk_ripple"
+                            android:clickable="true" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/bb_gr_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="25dp"
+                        android:layout_toRightOf="@+id/bb_gr_1"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/btNote14"
+                            android:layout_width="25dp"
+                            android:layout_height="120dp"
+                            android:layout_marginLeft="22.5dp"
+                            android:layout_marginStart="22.5dp"
+                            android:background="@drawable/bk_ripple"
+                            android:clickable="true" />
+
+                        <ImageButton
+                            android:id="@+id/btNote16"
+                            android:layout_width="25dp"
+                            android:layout_height="120dp"
+                            android:layout_marginLeft="14dp"
+                            android:layout_marginStart="14dp"
+                            android:background="@drawable/bk_ripple"
+                            android:clickable="true" />
+
+                        <ImageButton
+                            android:id="@+id/btNote19"
+                            android:layout_width="25dp"
+                            android:layout_height="120dp"
+                            android:layout_marginLeft="47dp"
+                            android:layout_marginStart="47dp"
+                            android:background="@drawable/bk_ripple"
+                            android:clickable="true" />
+
+                        <ImageButton
+                            android:id="@+id/btNote21"
+                            android:layout_width="25dp"
+                            android:layout_height="120dp"
+                            android:layout_marginLeft="14dp"
+                            android:layout_marginStart="14dp"
+                            android:background="@drawable/bk_ripple"
+                            android:clickable="true" />
+
+                        <ImageButton
+                            android:id="@+id/btNote23"
+                            android:layout_width="25dp"
+                            android:layout_height="120dp"
+                            android:layout_marginLeft="11dp"
+                            android:layout_marginStart="11dp"
+                            android:background="@drawable/bk_ripple"
+                            android:clickable="true" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/bb_gr_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="25dp"
+                        android:layout_toRightOf="@+id/bb_gr_2"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/btNote26"
+                            android:layout_width="25dp"
+                            android:layout_height="120dp"
+                            android:layout_marginLeft="22.5dp"
+                            android:layout_marginStart="22.5dp"
+                            android:background="@drawable/bk_ripple"
+                            android:clickable="true" />
+
+                        <ImageButton
+                            android:id="@+id/btNote28"
+                            android:layout_width="25dp"
+                            android:layout_height="120dp"
+                            android:layout_marginLeft="14dp"
+                            android:layout_marginStart="14dp"
+                            android:background="@drawable/bk_ripple"
+                            android:clickable="true" />
+
+                        <ImageButton
+                            android:id="@+id/btNote31"
+                            android:layout_width="25dp"
+                            android:layout_height="120dp"
+                            android:layout_marginLeft="47dp"
+                            android:layout_marginStart="47dp"
+                            android:background="@drawable/bk_ripple"
+                            android:clickable="true" />
+
+                        <ImageButton
+                            android:id="@+id/btNote33"
+                            android:layout_width="25dp"
+                            android:layout_height="120dp"
+                            android:layout_marginLeft="14dp"
+                            android:layout_marginStart="14dp"
+                            android:background="@drawable/bk_ripple"
+                            android:clickable="true" />
+
+                        <ImageButton
+                            android:id="@+id/btNote35"
+                            android:layout_width="25dp"
+                            android:layout_height="120dp"
+                            android:layout_marginLeft="11dp"
+                            android:layout_marginStart="11dp"
+                            android:background="@drawable/bk_ripple"
+                            android:clickable="true" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/bb_gr_4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="25dp"
+                        android:layout_toRightOf="@+id/bb_gr_3"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/btNote38"
+                            android:layout_width="25dp"
+                            android:layout_height="120dp"
+                            android:layout_marginLeft="22.5dp"
+                            android:layout_marginStart="22.5dp"
+                            android:background="@drawable/bk_ripple"
+                            android:clickable="true" />
+
+                        <ImageButton
+                            android:id="@+id/btNote40"
+                            android:layout_width="25dp"
+                            android:layout_height="120dp"
+                            android:layout_marginLeft="14dp"
+                            android:layout_marginStart="14dp"
+                            android:background="@drawable/bk_ripple"
+                            android:clickable="true" />
+
+                        <ImageButton
+                            android:id="@+id/btNote43"
+                            android:layout_width="25dp"
+                            android:layout_height="120dp"
+                            android:layout_marginLeft="47dp"
+                            android:layout_marginStart="47dp"
+                            android:background="@drawable/bk_ripple"
+                            android:clickable="true" />
+
+                        <ImageButton
+                            android:id="@+id/btNote45"
+                            android:layout_width="25dp"
+                            android:layout_height="120dp"
+                            android:layout_marginLeft="14dp"
+                            android:layout_marginStart="14dp"
+                            android:background="@drawable/bk_ripple"
+                            android:clickable="true" />
+
+                        <ImageButton
+                            android:id="@+id/btNote47"
+                            android:layout_width="25dp"
+                            android:layout_height="120dp"
+                            android:layout_marginLeft="11dp"
+                            android:layout_marginStart="11dp"
+                            android:background="@drawable/bk_ripple"
+                            android:clickable="true" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/bb_gr_5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="25dp"
+                        android:layout_toRightOf="@+id/bb_gr_4"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/btNote50"
+                            android:layout_width="25dp"
+                            android:layout_height="120dp"
+                            android:layout_marginLeft="22.5dp"
+                            android:layout_marginStart="22.5dp"
+                            android:background="@drawable/bk_ripple"
+                            android:clickable="true" />
+
+                        <ImageButton
+                            android:id="@+id/btNote52"
+                            android:layout_width="25dp"
+                            android:layout_height="120dp"
+                            android:layout_marginLeft="14dp"
+                            android:layout_marginStart="14dp"
+                            android:background="@drawable/bk_ripple"
+                            android:clickable="true" />
+
+                        <ImageButton
+                            android:id="@+id/btNote55"
+                            android:layout_width="25dp"
+                            android:layout_height="120dp"
+                            android:layout_marginLeft="47dp"
+                            android:layout_marginStart="47dp"
+                            android:background="@drawable/bk_ripple"
+                            android:clickable="true" />
+
+                        <ImageButton
+                            android:id="@+id/btNote57"
+                            android:layout_width="25dp"
+                            android:layout_height="120dp"
+                            android:layout_marginLeft="14dp"
+                            android:layout_marginStart="14dp"
+                            android:background="@drawable/bk_ripple"
+                            android:clickable="true" />
+
+                        <ImageButton
+                            android:id="@+id/btNote59"
+                            android:layout_width="25dp"
+                            android:layout_height="120dp"
+                            android:layout_marginLeft="11dp"
+                            android:layout_marginStart="11dp"
+                            android:background="@drawable/bk_ripple"
+                            android:clickable="true" />
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+        </HorizontalScrollView>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/textChances"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/abspitch_mainContent"
+        android:orientation="vertical"
+        android:padding="12dp"
+        android:layout_above="@+id/linearLayout">
+
+        <TextView
+            android:layout_marginTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:textSize="@dimen/abc_text_size_body_1_material"
+            android:text="¿Qué intervalo tiene mayor distancia entre sus notas?"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btFirst"
+                android:layout_width="250dp"
+                android:layout_gravity="right"
+                android:layout_height="36dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/ripple_primarydark"
+                android:elevation="4dp"
+                android:text="Primer Intervalo"
+                android:textColor="@color/white"
+                android:layout_marginBottom="16dp"/>
+
+            <Button
+                android:id="@+id/btSecond"
+                android:layout_width="250dp"
+                android:layout_height="36dp"
+                android:layout_gravity="right"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/ripple_primarydark"
+                android:elevation="4dp"
+                android:text="Segundo Intervalo"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignBottom="@+id/textChances"
+        android:layout_toEndOf="@+id/textChances"
+        android:layout_toRightOf="@+id/textChances">
+
+        <Button
+            android:id="@+id/btRepeat"
+            android:layout_width="100dp"
+            android:layout_height="36dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:background="@drawable/wk_ripple"
+            android:padding="4dp"
+            android:text="@string/btRepeat"
+            android:textColor="@color/colorPrimary" />
+
+        <Button
+            android:id="@+id/btNext"
+            android:layout_width="100dp"
+            android:layout_height="36dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:background="@drawable/ripple_primary"
+            android:padding="4dp"
+            android:text="@string/btNext"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</RelativeLayout>

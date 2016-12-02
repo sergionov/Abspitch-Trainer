@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="pitch_exercises_titles">
+        <item>Reconocer notas</item>
+        <item>Canto de notas</item>
+    </string-array>
+
+    <string-array name="pitch_exercises_subtitles">
+        <item>Escucha notas sin referencias y acierta cuales son</item>
+        <item>Escucha notas sin referencias y cantalas con tu voz</item>
+    </string-array>
+
+    <string-array name="interval_exercises_titles">
+        <item>Comparación de intervalos</item>
+        <item>Identificación de intervalos</item>
+    </string-array>
+
+    <string-array name="interval_exercises_subtitles">
+        <item>Determina cuál de los intervalos que suenan es más grande</item>
+        <item>Identifica el intervalo que suena y elige una de las opciones</item>
+    </string-array>
+
+</resources>

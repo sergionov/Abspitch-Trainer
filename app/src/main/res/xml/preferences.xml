@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="CUENTAS DE USUARIO">
+        <Preference
+            android:key="delete_account"
+            android:title="Borrar datos"
+            android:summary="Tu cuenta se eliminará, junto con tus datos" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="NOTIFICACIONES">
+        <SwitchPreference
+            android:key="enable_notification"
+            android:title="Activar notificaciones"
+            android:summary="Se mostrarán notificaciones cada cierto tiempo"
+            android:defaultValue="true"/>
+    </PreferenceCategory>
+</PreferenceScreen>
